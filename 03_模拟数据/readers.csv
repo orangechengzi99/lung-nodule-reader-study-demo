@@ -1,0 +1,9 @@
+﻿reader_id,experience_years,experience_group,random_sequence,baseline_detection_probability,baseline_fp_rate,baseline_reading_time_min
+R01,2,junior,BA,0.7,0.62,5.4
+R02,3,junior,AB,0.72,0.58,5.2
+R03,5,intermediate,BA,0.75,0.54,5.0
+R04,7,intermediate,BA,0.77,0.5,4.8
+R05,9,intermediate,AB,0.79,0.46,4.6
+R06,12,senior,BA,0.82,0.4,4.3
+R07,15,senior,AB,0.84,0.36,4.1
+R08,18,senior,AB,0.86,0.32,3.9

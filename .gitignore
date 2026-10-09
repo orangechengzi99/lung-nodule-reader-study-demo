@@ -1,0 +1,37 @@
+# Local environments and regenerated runs are not portfolio source files.
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+.cache/
+
+# Local planning and verification evidence (may contain machine paths).
+.planning/
+task_plan.md
+findings.md
+progress.md
+before-*.xml
+protocol-extraction.txt
+docs/*-evidence/
+docs/baseline.md
+docs/testing.md
+docs/environment.md
+
+# Non-source attachments and personal preparation notes.
+01_临床验证方案/
+05_综合结果/
+06_面试材料/
+V2.0修改说明.md
+docs/release-checklist.md
+docs/interview-walkthrough.md
+
+# Editor/system noise and local credentials.
+.idea/
+.vscode/
+.env
+.env.*
+*.log
+Thumbs.db
+.DS_Store

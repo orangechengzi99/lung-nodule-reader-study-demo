@@ -1,0 +1,7 @@
+﻿metric,metric_label,without_ai_reader_mean,with_ai_reader_mean,mean_paired_difference,minimum_reader_difference,maximum_reader_difference,interpretation
+lesion_sensitivity,Reader-average lesion sensitivity,0.7746,0.8371,0.0625,-0.0606,0.2273,descriptive teaching result only
+fp_per_scan,Reader-average false positives per scan,0.5062,0.6797,0.1734,-0.1000,0.3125,descriptive teaching result only
+case_sensitivity,Reader-average case sensitivity,0.9141,0.9323,0.0182,-0.0625,0.0625,descriptive teaching result only
+case_specificity,Reader-average case specificity,0.6094,0.4922,-0.1172,-0.2500,0.0625,descriptive teaching result only
+mean_reading_time_min,Reader-average reading time (min),4.8241,4.1228,-0.7013,-0.7893,-0.5915,descriptive teaching result only
+mean_confidence_score,Reader-average confidence score,3.3172,3.6953,0.3781,0.2250,0.4625,descriptive teaching result only

@@ -1,0 +1,17 @@
+﻿reader_id,experience_years,experience_group,random_sequence,condition,scan_count,reference_lesion_count,tp_count,fn_count,fp_count,lesion_sensitivity,fp_per_scan,case_sensitivity,case_specificity,mean_reading_time_min,mean_confidence_score
+R01,2,junior,BA,with_ai,80,66,52,14,72,0.7879,0.9000,0.9167,0.3438,4.8216,3.5500
+R01,2,junior,BA,without_ai,80,66,37,29,48,0.5606,0.6000,0.8542,0.5938,5.5851,3.1250
+R02,3,junior,AB,with_ai,80,66,51,15,53,0.7727,0.6625,0.9375,0.5000,4.6214,3.6750
+R02,3,junior,AB,without_ai,80,66,47,19,61,0.7121,0.7625,0.8958,0.4375,5.4106,3.2125
+R03,5,intermediate,BA,with_ai,80,66,52,14,48,0.7879,0.6000,0.8750,0.3750,4.4854,3.6000
+R03,5,intermediate,BA,without_ai,80,66,48,18,45,0.7273,0.5625,0.9375,0.5312,5.1390,3.2750
+R04,7,intermediate,BA,with_ai,80,66,60,6,61,0.9091,0.7625,0.9792,0.4688,4.2901,3.6750
+R04,7,intermediate,BA,without_ai,80,66,56,10,36,0.8485,0.4500,0.9583,0.6250,4.9705,3.3250
+R05,9,intermediate,AB,with_ai,80,66,53,13,54,0.8030,0.6750,0.9167,0.4688,4.0082,3.7500
+R05,9,intermediate,AB,without_ai,80,66,54,12,41,0.8182,0.5125,0.9375,0.6250,4.6900,3.3750
+R06,12,senior,BA,with_ai,80,66,53,13,49,0.8030,0.6125,0.9167,0.5938,3.7571,3.7875
+R06,12,senior,BA,without_ai,80,66,57,9,25,0.8636,0.3125,0.8750,0.7188,4.5156,3.3375
+R07,15,senior,AB,with_ai,80,66,62,4,54,0.9394,0.6750,0.9583,0.5625,3.5991,3.8375
+R07,15,senior,AB,without_ai,80,66,55,11,32,0.8333,0.4000,0.9583,0.6562,4.1906,3.4250
+R08,18,senior,AB,with_ai,80,66,59,7,44,0.8939,0.5500,0.9583,0.6250,3.3992,3.6875
+R08,18,senior,AB,without_ai,80,66,55,11,36,0.8333,0.4500,0.8958,0.6875,4.0910,3.4625

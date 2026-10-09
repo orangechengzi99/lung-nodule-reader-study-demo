@@ -1,0 +1,24 @@
+﻿check,status,detail
+reader_id is unique,PASS,"unique=8, rows=8"
+case_id is unique,PASS,"unique=80, rows=80"
+source tables have no missing values,PASS,"reader missing cells=0, case missing cells=0"
+random sequence values are valid,PASS,invalid rows=0
+AB and BA sequence allocation is balanced,PASS,"counts={'BA': 4, 'AB': 4}"
+reader-case-condition key has no duplicates,PASS,duplicate rows=0
+reader-case results have no missing values,PASS,missing cells=0
+condition values are valid,PASS,"observed=['with_ai', 'without_ai']"
+full-crossed row count is complete,PASS,"observed=1280, expected=1280"
+each reader-case pair has both conditions,PASS,incomplete pairs=0
+each reader-case pair has both periods,PASS,incomplete period pairs=0
+all reader IDs exist in readers.csv,PASS,unknown=[]
+all case IDs exist in cases.csv,PASS,unknown=[]
+reference lesion counts match cases.csv,PASS,mismatched rows=0
+binary result fields contain only 0 or 1,PASS,invalid cells=0
+period values are valid,PASS,invalid rows=0
+period agrees with AB or BA sequence,PASS,mismatched rows=0
+case_prediction agrees with the prespecified marker-based rule,PASS,mismatched rows=0
+case_correct agrees with prediction and reference label,PASS,mismatched rows=0
+confidence scores are between 1 and 5,PASS,invalid rows=0
+reading times are positive,PASS,invalid rows=0
+lesion counts are nonnegative,PASS,"reference, TP, FN and FP counts must be >= 0"
+TP plus FN equals reference lesion count,PASS,checked for every reader-case-condition row
